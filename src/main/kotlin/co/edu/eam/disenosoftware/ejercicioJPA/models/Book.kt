@@ -7,6 +7,7 @@ import javax.persistence.*
 @Table(name = "tbl_libro")
 data class Book(
 
+    @Id
     @Column(name = "codigo_libro")
     val codigo_libro: Long,
 
